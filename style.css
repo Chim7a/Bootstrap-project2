@@ -9,3 +9,30 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+img {
+  max-width: 100%;
+}
+
+.travel--des {
+  background-color: #486ef9;
+}
+
+.tour-sec {
+  background-image: url("https://images.unsplash.com/photo-1518030246977-4accad8a030b?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+
+.card-body a {
+  background-color: #4871ff;
+}
+
+.form--section {
+  background-image: linear-gradient(
+      rgba(6, 52, 255, 0.772),
+      rgba(0, 110, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1552418033-d68b553926d2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+}

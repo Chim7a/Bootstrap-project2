@@ -17,7 +17,7 @@
       <!-- Navigation Section -->
       <nav class="navbar navbar-expand-lg bg-dark bg-opacity-10">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Navbar</a>
+          <a class="navbar-brand text-white" href="#">Travel Place</a>
           <button
             class="navbar-toggler text-white"
             type="button"
@@ -79,12 +79,104 @@
 
     <!-- Travel Destinations -->
 
-    <div class="container-fluid d-flex justify-content-center align-items-center text-center">
-      <div class="row g-2">
-        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+    <div
+      class="container-fluid travel--des d-flex flex-column justify-content-center align-items-center text-center gap-3 py-5"
+    >
+      <aside class="container col-12">
+        <div class="tour-sec">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Standard Trip
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae ducimus, illo vel magni earum aperiam qui aliquid
+                  neque. Debitis, quia? Accusantium nesciunt autem doloremque
+                  possimus voluptatibus quibusdam saepe expedita aliquam!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Premium Trip
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem iusto eos explicabo enim libero voluptatibus
+                  laborum, officiis maiores natus, id ea commodi exercitationem
+                  nobis, quo incidunt temporibus laboriosam doloribus quod!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Premium Pro Trip
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+                  cum corporis asperiores, at in, facere sapiente aperiam fugiat
+                  deleniti totam minus minima ullam nobis quasi temporibus velit
+                  inventore dignissimos possimus?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- Tour Section Ends here -->
+
+      <div class="row">
+        <div class="col-12 col-lg-4 d-flex justify-content-center">
           <div class="p-3">
             <div class="card" style="width: 18rem">
-              <img src="https://images.unsplash.com/photo-1554366347-897a5113f6ab?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..." />
+              <img
+                src="https://images.unsplash.com/photo-1554366347-897a5113f6ab?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Canada</h5>
                 <p class="card-text">
@@ -96,10 +188,15 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+        <div class="col-12 col-lg-4 d-flex justify-content-center">
           <div class="p-3">
             <div class="card" style="width: 18rem">
-              <img src="https://images.unsplash.com/photo-1533281808624-e9b07b4294ff?q=80&w=3126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" height="214.54px" alt="..." />
+              <img
+                src="https://images.unsplash.com/photo-1533281808624-e9b07b4294ff?q=80&w=3126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                height="214.54px"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Turkey</h5>
                 <p class="card-text">
@@ -111,10 +208,14 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+        <div class="col-12 col-lg-4 d-flex justify-content-center">
           <div class="p-3">
             <div class="card" style="width: 18rem">
-              <img src="https://images.unsplash.com/photo-1655405927518-94872964699f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxibHVlJTIwdHJhdmVsJTIwZGVzdGluYXRpb25zfGVufDB8fDB8fHww" class="card-img-top" alt="..." />
+              <img
+                src="https://images.unsplash.com/photo-1655405927518-94872964699f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxibHVlJTIwdHJhdmVsJTIwZGVzdGluYXRpb25zfGVufDB8fDB8fHww"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Tokyo</h5>
                 <p class="card-text">
@@ -126,17 +227,73 @@
             </div>
           </div>
         </div>
-        
-        </div>
       </div>
     </div>
 
-    <!-- Destination Section Ends here-->
-     
-    <!-- Tours Section -->
+    <!-- Travel Destination Section Ends here-->
 
+    <!-- Form Section -->
 
-    <!-- Tours Section Ends here -->
+    <section
+      class="container-fluid d-lg-flex justify-content-center text-white py-5 form--section"
+    >
+      <!-- Form inputs -->
+      <div class="mb-3 col-lg-8 d-flex flex-column gap-4">
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="First name"
+              aria-label="First name"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+              aria-label="Last name"
+            />
+          </div>
+        </div>
+
+        <!-- Choose Destination Starts -->
+
+        <div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Choose Destination</option>
+            <option value="1">Canada</option>
+            <option value="2">Turkey</option>
+            <option value="3">Tokyo</option>
+            <option value="4">Lagos</option>
+          </select>
+        </div>
+
+        <!-- Choose Destination ends -->
+
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
+    </section>
+    <!-- Form Section Ends here -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
